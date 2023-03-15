@@ -4,7 +4,7 @@ import olho from '../../assets/eyes.png'
 import profileImg from '../../assets/profile-img.png'
 import shapeOne from '../../assets/shape-1.png'
 import shapeTwo from '../../assets/shape-2.png'
-
+import logo from '../../assets/logo.png'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import './style.css'

@@ -9,12 +9,13 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import NavBar from './componentes/NavBar';
 
 function App() {
+
+
   return (
     <main className="main">
-      
-      <Home/>
-      <AboutMe/>
-      <Projects/>
+      <Home />
+      <AboutMe />
+      <Projects />
       <Resume />
     </main>
   );

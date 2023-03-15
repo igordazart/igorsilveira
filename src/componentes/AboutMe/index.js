@@ -43,6 +43,7 @@ function AboutMe(){
                     </div>                    
                 </div>
 
+                <AnimationOnScroll animateIn='animate__fadeIn'>
                 <div className='picture-and-skills'>
                     <div className='minhas-skills'>
                         <SkillsBar/>
@@ -53,6 +54,7 @@ function AboutMe(){
                     </div>
                     
                 </div>
+                </AnimationOnScroll>
             </div>
             </AnimationOnScroll>
         </section>

@@ -1,6 +1,6 @@
 import './style.css'
 import React, { Component } from 'react'
-import logo from '../../assets/body.png'
+import logo from '../../assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
