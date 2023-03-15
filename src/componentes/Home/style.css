@@ -5,7 +5,7 @@
 
 .home__wrapper{
     margin: 50px;
-    margin-top: -100px;
+ 
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -156,12 +156,12 @@ main:after{
   .home__title{
     font-size: 60px;
   }
+
+ 
 }
 
 @media (max-width: 782px){
-    .home__container{
-        margin-top: 100px;
-    }
+   
 }
 
 @media (max-width: 480px){
@@ -174,9 +174,7 @@ main:after{
 }
 
 @media (max-width: 400px){
-    .home__left-items{
-        margin-top: 50px;
-    }
+   
 
     .home__btns{
         display: flex;
