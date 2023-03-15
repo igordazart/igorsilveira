@@ -1,0 +1,114 @@
+.aboutme{
+    padding-top: 100px;
+    background-color: var(--primary-color);
+}
+
+.about-me{
+    background-color: #eeeeee;
+}
+
+
+.about-me .container h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.conteudo-imagem img{
+    margin-top: 100px;
+    width: 500px;
+}
+
+.conteudo-texto {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: #171B44;
+    font-size: 1.2em;
+}
+
+.conteudo-texto h2{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: var(--container-color);
+    border-radius: 25px;
+}
+
+.icones-separados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 50px;
+}
+
+.icones-separados h3{
+    margin-top: 10px;
+}
+
+.icones-separados p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.icones-separados .icon{
+    font-size: 3em;
+}
+
+.about-me{
+    color: #3F8EFC;
+    font-family: 'Montserrat';
+}
+
+.about-me .container h2{
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+.picture-and-skills img{
+    width: 90%;
+}
+
+.picture{
+    width: 40%;
+}
+
+.minhas-skills{
+    width: 60%;
+}
+
+.picture-and-skills{
+    color: #3F8EFC;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    align-items: center;
+    gap: 40px;
+}
+
+@media (max-width: 1058px)
+{
+  .icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .picture-and-skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
