@@ -1,14 +1,13 @@
 .home {
     background-color: var(--first-gradient);
+    height: 100vh;
     
 }
 
 .home__wrapper{
     margin: 50px;
- 
     min-height: 100vh;
     display: flex;
-    align-items: center;
 }
 
 .home__container{
