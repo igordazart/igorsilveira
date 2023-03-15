@@ -97,6 +97,10 @@
     width: 50%;
 }
 
+.resume__heading{
+    color: var(--bg-color);
+}
+
 @media (max-width: 1058px)
 {
     .resume__container{
