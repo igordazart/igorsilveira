@@ -68,3 +68,13 @@
     margin-left: auto;
 }
 
+
+@media (max-width: 500px){
+    .section__subtitle{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
