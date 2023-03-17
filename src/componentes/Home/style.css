@@ -2,6 +2,7 @@
     background-color: var(--first-gradient);
     height: 900px;
     margin-top: 150px;
+    display: block;
 }
 
 .home__wrapper{
