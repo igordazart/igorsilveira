@@ -150,6 +150,10 @@ main:after{
   .home__img-wrapper{
     display: none;
   }
+
+  .home{
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 500px)
