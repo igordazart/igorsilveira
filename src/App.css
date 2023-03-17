@@ -147,7 +147,6 @@ img{
 .btn{
     border: 2px solid var(--border-color);
     padding-inline: 40px;
-    border-radius: 56px;
     box-shadow: var(--shadow);
 }   
 

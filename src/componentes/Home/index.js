@@ -61,8 +61,17 @@ function Home (){
 
 
                         <p className='home__text'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            Procurando um desenvolvedor Front End com aptidão artística e ao mesmo tempo criativo? Então você está no lugar certo!
                         </p>
+
+                        
+
+                        <div className='home__btns'>
+                            <a href="" className='btn text-cs'>
+                                Contate-me
+                            </a>
+                            
+                        </div>
 
                         <div className='home__socials'>
                             <a href='' className='home__social-link'>
@@ -71,15 +80,6 @@ function Home (){
 
                             <a href='' className='home__social-link'>
                                 <BsGithub/>
-                            </a>
-                        </div>
-
-                        <div className='home__btns'>
-                            <a href="" className='btn text-cs'>
-                                Download CV
-                            </a>
-                            <a href="" className='hero__link text-cs'>
-                                Lorem Ipsum
                             </a>
                         </div>
                     </div>

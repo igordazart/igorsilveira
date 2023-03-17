@@ -69,6 +69,7 @@
 .home__btns{
     display: flex;
     column-gap: 70px;
+    padding-bottom: 30px;
 }
 
 .home__img-wrapper{

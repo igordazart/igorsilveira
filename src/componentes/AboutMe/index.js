@@ -24,22 +24,22 @@ function AboutMe(){
                     <div className='icones-separados'>
                         <FontAwesomeIcon className='icon' icon={faPaintBrush}/>
                         <h3>CRIATIVO</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <p>Eu diria que essa é minha maior qualidade. Sempre tive facilidade para criar algo a partir do zero juntamente com um toque artístico. </p>
                     </div>
                     <div className='icones-separados'>
                         <FontAwesomeIcon className='icon' icon={faMobileScreenButton}/>
                         <h3>RESPONSIVO</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <p>Responsividade é uma obrigação e dominar as técnicas por trás disso é fundamental para o desenvolvimento de páginas web hoje em dia.</p>
                     </div>
                     <div className='icones-separados'>
                         <FontAwesomeIcon className='icon' icon={faRocket}/>
                         <h3>DINAMICO</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <p>Um site não precisa ser totalmente estático. Ele pode possuir a dosagem certa de dinamismo com movimentos suaves de elementos e que fazem sentido para o usuário final.</p>
                     </div>
                     <div className='icones-separados'>
                         <FontAwesomeIcon className='icon' icon={faWandMagicSparkles}/>
                         <h3>INTUITIVO</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <p>Um site contendo muitos elementos, com funcionalidades complexas, podem acabar tornando a navegação pouco intuitiva. Portanto, é fundamental que todos os elementos sejam "auto explicativo" e fácil de usar.</p>
                     </div>                    
                 </div>
 
