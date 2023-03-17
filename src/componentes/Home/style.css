@@ -1,12 +1,11 @@
 .home {
     background-color: var(--first-gradient);
-    height: 100vh;
-    
+    height: 900px;
+    margin-top: 150px;
 }
 
 .home__wrapper{
     margin: 50px;
-    min-height: 100vh;
     display: flex;
 }
 
@@ -143,9 +142,7 @@ main:after{
   .home__img-wrapper{
     opacity: 0.4;
   }
-  .home__container{
-    margin: auto;
-  }
+  
 }
 
 @media (max-width: 800px)
@@ -170,7 +167,7 @@ main:after{
 
 @media (max-width: 480px){
     .home__btns{
-        display: flex;
+        display: inline-block;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -181,10 +178,8 @@ main:after{
    
 
     .home__btns{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: inline-block;
+        
     }
 }
 

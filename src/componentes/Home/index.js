@@ -41,7 +41,7 @@ function Home (){
 
     return (
         <section className='home' id='home'>
-            <NavBar/>   
+
             <div className='home__wrapper'>
                 
                 <div className='home__container container'>

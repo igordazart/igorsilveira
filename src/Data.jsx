@@ -18,37 +18,21 @@ export const links = [
     path: 'home',
   },
   {
-    name: 'Services',
-    path: 'services',
+    name: 'Sobre Mim',
+    path: 'aboutme',
   },
   {
-    name: 'Skills',
-    path: 'skills',
+    name: 'Projetos',
+    path: 'projects',
   },
   {
-    name: 'Works',
-    path: 'work',
-  },
-  {
-    name: 'Resume',
+    name: 'Resumo',
     path: 'resume',
   },
   {
-    name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
-  {
-    name: 'Blog',
-    path: 'blog',
-  },
-  {
-    name: 'Contact',
+    name: 'Contato',
     path: 'contact',
-  },
+  }
 ];
 
 export const services = [
