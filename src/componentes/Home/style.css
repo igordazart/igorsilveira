@@ -139,20 +139,17 @@ main:after{
 
 @media (max-width: 835px)
 {
-    .home__img-wrapper{
-        opacity: 0.2;
-        position: fixed;
-    }
-
-    .eyes, .eyes img{
-        position: fixed;
-    } 
+  .home__img-wrapper{
+    opacity: 0.4;
+  }
   
 }
 
 @media (max-width: 800px)
 {
-  
+  .home__img-wrapper{
+    display: none;
+  }
 }
 
 @media (max-width: 500px)
