@@ -19,6 +19,8 @@
 .home__subtitle,
 .home__job{
     font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 .home__subtitle,
@@ -155,6 +157,11 @@ main:after{
   .home{
     margin-top: 100px;
   }
+
+  .home__job{
+    flex-direction: column;
+    align-items: baseline;
+}
 }
 
 @media (max-width: 500px)

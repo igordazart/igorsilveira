@@ -9,6 +9,7 @@ import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import './style.css'
 import NavBar from '../NavBar'
+import { TypeAnimation } from 'react-type-animation';
 
 function Home (){
 
@@ -56,7 +57,27 @@ function Home (){
                         </h1>
 
                         <p className='home__job'>
-                            <span className='text-css'>Eu sou</span> <b>Desenvolvedor Front End</b>
+                            <span className='text-css'>Eu sou</span> 
+                            <b>
+                            <TypeAnimation
+                                sequence={[
+                                    'Desenvolvedor Front End', // Types 'One'
+                                    2000, // Waits 1s
+                                    'Designer', // Deletes 'One' and types 'Two'
+                                    2000, // Waits 2s
+                                    'Ilustrador', // Types 'Three' without deleting 'Two'
+                                    2000,
+                                    () => {
+                                    console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                                    }
+                                ]}
+                                wrapper="div"
+                                cursor={true}
+                                repeat={Infinity}
+                                style={{ fontSize: '2em' }}
+                            />
+                                
+                            </b>
                         </p>
 
 
