@@ -158,10 +158,7 @@ main:after{
     margin-top: 100px;
   }
 
-  .home__job{
-    flex-direction: column;
-    align-items: baseline;
-}
+  
 }
 
 @media (max-width: 500px)
