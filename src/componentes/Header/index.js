@@ -16,7 +16,7 @@ function Header(){
     }
 
     const changeNav = () => {
-        if(window.scrollY >= 80){
+        if(window.scrollY >= 150){
             setScrollNav(true)
         }
         else{
