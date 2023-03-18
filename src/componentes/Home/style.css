@@ -160,9 +160,13 @@ main:after{
 
   .home__job{
     flex-direction: column;
-    align-items: baseline;
-    margin-left: -8px;
-}
+    align-items: flex-start;
+    
+    }
+
+    .home__job b{
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 500px)
