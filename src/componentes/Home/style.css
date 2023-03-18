@@ -155,7 +155,7 @@ main:after{
   }
 
   .home{
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .home__job{
@@ -164,9 +164,7 @@ main:after{
     
     }
 
-    .home__job b{
-        font-size: 1.3em;
-    }
+    
 }
 
 @media (max-width: 500px)
@@ -175,6 +173,14 @@ main:after{
     font-size: 60px;
   }
 
+  .home__job{
+    position: absolute;
+    margin-left: 0;
+  }
+
+  .home__text{
+    margin-block: 150px 28px;
+  }
  
 }
 
