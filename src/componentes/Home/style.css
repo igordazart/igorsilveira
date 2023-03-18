@@ -34,7 +34,7 @@
 }
 
 .home__job b {
-    font-family: var(--second-font);
+    font-family: var(--large-font-size);
     font-size: var(--h2-font-size);
     margin-left: 10px;
 }
@@ -161,6 +161,7 @@ main:after{
   .home__job{
     flex-direction: column;
     align-items: baseline;
+    margin-left: -8px;
 }
 }
 
