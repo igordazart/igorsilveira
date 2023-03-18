@@ -15,7 +15,7 @@ function App() {
 
   return (
     <main className="main">
-      <Header />
+      
       <Home />
       <AboutMe />
       <Projects />

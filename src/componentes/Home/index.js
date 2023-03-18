@@ -10,6 +10,7 @@ import {BsGithub} from 'react-icons/bs'
 import './style.css'
 import NavBar from '../NavBar'
 import { TypeAnimation } from 'react-type-animation';
+import Header from '../Header'
 
 function Home (){
 
@@ -42,7 +43,7 @@ function Home (){
 
     return (
         <section className='home' id='home'>
-
+            <Header/>
             <div className='home__wrapper'>
                 
                 <div className='home__container container'>
