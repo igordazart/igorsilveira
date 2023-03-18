@@ -152,6 +152,9 @@ main:after{
   .home__img-wrapper{
     display: none;
   }
+  .home__wrapper{
+    margin: 0 50px;
+  }
 
   .home{
     margin-top: 0px;
