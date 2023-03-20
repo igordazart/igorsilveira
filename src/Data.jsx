@@ -187,8 +187,8 @@ export const cv = [
 
   {
     id: 2,
-    title: 'Alura',
-    subtitle: 'Formação JavaScript para Front End',
+    title: 'Alura: JavaScript para Front End',
+    subtitle: 'Formação',
     date: '2023',
     description:
       '8 cursos que fazem parte da formação com uma carga horária total de 60h',
@@ -197,8 +197,8 @@ export const cv = [
 
   {
     id: 3,
-    title: 'Alura',
-    subtitle: 'HTML e CSS',
+    title: 'Alura: HTML e CSS',
+    subtitle: 'Formação',
     date: '2013',
     description:
       '6 cursos que fazem parte da formação com uma carga horária total de 51h',
@@ -207,8 +207,8 @@ export const cv = [
 
   {
     id: 4,
-    title: 'Alura',
-    subtitle: 'React com Javascript',
+    title: 'Alura: React com Javascript',
+    subtitle: 'Formação',
     date: '2023',
     description:
       '7 cursos da formação com carga horária estimada em 65 horas.',
