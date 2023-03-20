@@ -33,7 +33,7 @@ function AboutMe(){
                     </div>
                     <div className='icones-separados'>
                         <FontAwesomeIcon className='icon' icon={faRocket}/>
-                        <h3>DINAMICO</h3>
+                        <h3>DINÂMICO</h3>
                         <p>Um site não precisa ser totalmente estático. Ele pode possuir a dosagem certa de dinamismo com movimentos suaves de elementos e que fazem sentido para o usuário final.</p>
                     </div>
                     <div className='icones-separados'>
