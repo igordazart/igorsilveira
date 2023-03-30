@@ -45,15 +45,7 @@ export const projects = [
       'Neste projeto acadêmico foi executado técnicas flexbox para o posicionamento de elementos na tela, pseudo-classes e reutilização de estilos.',
     link: 'https://aluraplus-igorsilveira.vercel.app/'
   },
-  {
-    id: 2,
-    img: Project3,
-    category: 'JavaScript',
-    title: 'AluraPlay',
-    description:
-      'Neste projeto acadêmico, foi utilizado de métodos GET e POST de uma API alimentada dinâmicamente, além de um campo de pesquisa.',
-    link: "https://aluraplay-igorsilveira.vercel.app/"
-  },
+  
   {
     id: 3,
     img: Project5,
