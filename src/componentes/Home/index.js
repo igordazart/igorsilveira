@@ -89,18 +89,19 @@ function Home (){
                         
 
                         <div className='home__btns'>
-                            <a href="" className='btn text-cs'>
+                            
+                            <a href="http://igorsilveira.vercel.app/#contact" className='btn text-cs'>
                                 Contate-me
                             </a>
                             
                         </div>
 
                         <div className='home__socials'>
-                            <a href='' className='home__social-link'>
+                            <a href='https://www.linkedin.com/in/igor-silveira-a6b30bb2/' className='home__social-link'>
                                 <BsLinkedin/>
                             </a>
 
-                            <a href='' className='home__social-link'>
+                            <a href='https://github.com/igordazart' className='home__social-link'>
                                 <BsGithub/>
                             </a>
                         </div>

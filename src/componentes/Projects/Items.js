@@ -7,7 +7,7 @@ function Items({projectItems}){
     return(
         <>
         {projectItems.map((projectItem) => {
-            const {id, img, category, title, description}=projectItem;
+            const {id, img, category, title, description, link}=projectItem;
             return(
                 <motion.div 
                     layout
@@ -33,8 +33,8 @@ function Items({projectItems}){
                     {description}
                     </p>
 
-                    <a href='' className='link'>
-                        Lorem Ipsum
+                    <a href={link} className='link'>
+                        Ver Projeto
                         <faArrowRight className="link__icon"></faArrowRight>
                     </a>
 

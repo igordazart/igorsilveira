@@ -1,9 +1,9 @@
-import Project1 from './assets/project1.jpeg';
+import Project1 from './assets/project1.jpg';
 import Project2 from './assets/project2.jpg';
-import Project3 from './assets/project3.jpeg';
-import Project4 from './assets/project4.jpeg';
+import Project3 from './assets/project3.jpg';
+import Project4 from './assets/project4.jpg';
 import Project5 from './assets/project5.jpg';
-import Project6 from './assets/project6.jpg';
+import Project7 from './assets/project7.jpg';
 import Project0 from './assets/project0.jpg';
 
 import Testimonial1 from './assets/testimonial1.jpg';
@@ -35,142 +35,60 @@ export const links = [
   }
 ];
 
-export const services = [
-  {
-    id: 1,
-    name: 'Web Development',
-    title: 'Web Design & Logo',
-    description:
-      'Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal.',
-  },
-  {
-    id: 2,
-    name: ' Apps Development ',
-    title: ' iOS & Android ',
-    description:
-      'Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.',
-  },
-  {
-    id: 3,
-    name: ' Game Development ',
-    title: ' Unity & Unreal Engine ',
-    description:
-      ' Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games. ',
-  },
-  {
-    id: 4,
-    name: ' Advertising ',
-    title: ' Google Ads ',
-    description:
-      ' Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
-  },
-  {
-    id: 5,
-    name: ' Music Writing ',
-    title: ' Sound Track ',
-    description:
-      'Music copying, writing, creating, transcription and composition services.',
-  },
-];
-
-export const skills = [
-  {
-    id: 1,
-    name: 'PHP',
-    percentage: 85,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-
-  {
-    id: 2,
-    name: 'JavaScript',
-    percentage: 75,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-
-  {
-    id: 3,
-    name: 'WordPress',
-    percentage: 90,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-
-  {
-    id: 4,
-    name: 'Python',
-    percentage: 75,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-
-  {
-    id: 5,
-    name: 'React',
-    percentage: 70,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-
-  {
-    id: 6,
-    name: 'Adobe XD',
-    percentage: 80,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-];
-
 export const projects = [
   {
     id: 1,
-    img: Project0,
+    img: Project1,
     category: 'HTML/CSS',
-    title: 'Lorem Ipsum',
+    title: 'AluraPlus',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Neste projeto acadêmico foi executado técnicas flexbox para o posicionamento de elementos na tela, pseudo-classes e reutilização de estilos.',
+    link: 'https://aluraplus-igorsilveira.vercel.app/'
   },
   {
     id: 2,
-    img: Project0,
+    img: Project3,
     category: 'JavaScript',
-    title: 'Lorem Ipsum',
+    title: 'AluraPlay',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Neste projeto acadêmico, foi utilizado de métodos GET e POST de uma API alimentada dinâmicamente, além de um campo de pesquisa.',
+    link: "https://aluraplay-igorsilveira.vercel.app/"
   },
   {
     id: 3,
-    img: Project0,
-    category: 'ReactJS',
-    title: 'Lorem Ipsum',
+    img: Project5,
+    category: 'React',
+    title: 'Organo',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Neste projeto acadêmico, foi desenvolvido utilizando a biblioteca ReactJs, com o auxilio de componentes e Hooks como o useState e useEffect.',
+    link: "https://organo-react-igorsilveira.vercel.app/"
   },
   {
     id: 4,
-    img: Project0,
-    category: 'Design',
-    title: 'Lorem Ipsum',
+    img: Project7,
+    category: 'React',
+    title: 'CineTag',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Neste projeto acadêmico, foi utilizado técnicas de rotas aninhadas e rotas dinâmicas, Contextos e aprofundando o estudo sobre Hooks.',
+    link: 'https://cinetag-igorsilveira.vercel.app/'
   },
   {
     id: 5,
-    img: Project0,
+    img: Project2,
     category: 'HTML/CSS',
-    title: 'Lorem Ipsum',
+    title: 'AluraBooks',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Neste projeto acadêmico, foi aplicado o conceito de mobile first, onde o desenvolvimento parte inicialmente utilizando telas mobile como referência.',
+    link: "https://alurabooks-igorsilveira.vercel.app/"
   },
   {
     id: 6,
-    img: Project0,
+    img: Project4,
     category: 'JavaScript',
-    title: 'Lorem Ipsum',
+    title: 'Monibank',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Neste projeto acadêmico, foi implementado técnicas de validação de formulário, utilizando JavaScript e também armazenando os dados em um localStorage.',
+    link: "https://monibank-igorsilveira.vercel.app/"
   },
 ];
 
@@ -256,45 +174,3 @@ export const cv = [
   },
 ];
 
-export const testimonials = [
-  {
-    id: 1,
-    img: Testimonial1,
-    name: 'Barbara Wilson',
-    author: 'CEO Company',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 2,
-    img: Testimonial2,
-    name: 'Charlie Smith',
-    author: 'Designer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 3,
-    img: Testimonial3,
-    name: 'Roy Wang',
-    author: 'Manager GYM',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 4,
-    img: Testimonial4,
-    name: 'Jennifer Smith',
-    author: 'CEO & Founder',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 5,
-    img: Testimonial5,
-    name: 'Paul Freeman',
-    author: 'Photographer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-];
