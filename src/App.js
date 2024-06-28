@@ -7,6 +7,7 @@ import Resume from './componentes/Resume';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Contact from './componentes/Contact';
+import Footer from './componentes/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Projects />
       <Resume />
       <Contact/>
+      <Footer />
     </main>
   );
 }
